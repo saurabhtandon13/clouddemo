@@ -13,5 +13,5 @@ terraform {
 # Provider Block-01
 
 provider "aws" {
-  region                   = var.ec2region
+  region = var.ec2region
 }
